@@ -14,17 +14,14 @@ body {
 }
 
 header {
-    text-align: center;      
-    display: flex;          
-    flex-direction: column;  
-    align-items: center;      
-    justify-content: center;  
-    gap: 15px;              
+    text-align: center;       /* centrowanie zawartości tekstowej */
     margin-bottom: 30px;
 }
 
 header img {
-    max-width: 200px;       
+    display: block;           /* blokowy obraz, żeby centrowało go w text-align */
+    margin: 0 auto;           /* automatyczne marginesy po bokach */
+    max-width: 200px;
     height: auto;
     border-radius: 10px;
 }
@@ -92,4 +89,5 @@ hr {
     background: #bdc3c7;
     margin: 30px 0;
 }
+
 
