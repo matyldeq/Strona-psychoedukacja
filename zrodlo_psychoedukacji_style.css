@@ -1,28 +1,88 @@
-
-
-
-.stopka {                                                                             
-    font-size: 16px;                                                            
-    font-family: serif;                                                                                  
-    font-weight: bold;                                                          
-    text-align: justify;                                                                                                      
-    color: #114c9d; ;                                                            
+/* Reset podstawowy */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.wprowadzenie{
-    font-size: 16px;                                                      
-    font-family: serif;                                                                            
-                                                         
-    text-align: justify;  
-
-
-
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
 }
 
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #34495e;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.wprowadzenie p {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+ul ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 .phone-number {
-    color: #114c9d; 
     font-weight: bold;
-    font-style:oblique ;
+    color: #e74c3c;
 }
 
+.stopka {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: 40px;
+    color: #7f8c8d;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #bdc3c7;
+    margin: 30px 0;
+}
