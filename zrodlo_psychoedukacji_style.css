@@ -9,12 +9,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     background-color: #f8f9fa;
-    color: #333;
+    color: #08179d;
     padding: 20px;
 }
 
 header {
-    text-align: center;       /* centrowanie zawartości tekstowej */
+    text-align: center;      
     margin-bottom: 30px;
 }
 
@@ -28,15 +28,15 @@ header img {
 h1 {
     font-size: 2em;
     text-align: center;
-    color: #2c3e50;
+    color: #08179d;
 }
 
 h2 {
     font-size: 1.5em;
-    color: #34495e;
+    color: #08179d;
     margin-top: 25px;
     margin-bottom: 10px;
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid #3ca0e3;
     display: inline-block;
     padding-bottom: 5px;
 }
@@ -62,8 +62,8 @@ ul ul {
 }
 
 a {
-    color: #2980b9;
-    text-decoration: none;
+    color: #2895df;
+    text-decoration:underline ;
 }
 
 a:hover {
@@ -72,7 +72,7 @@ a:hover {
 
 .phone-number {
     font-weight: bold;
-    color: #e74c3c;
+    color: #021554;
 }
 
 .stopka {
@@ -86,10 +86,9 @@ a:hover {
 hr {
     border: 0;
     height: 1px;
-    background: #bdc3c7;
+    background: #c0c8cd;
     margin: 30px 0;
 }
-
 
 
 
